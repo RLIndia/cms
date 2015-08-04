@@ -1,0 +1,1 @@
+<%@ Page Language="vb" AutoEventWireup="false" Inherits="viewimg" enableViewState="false" EnableSessionState="False" CodeFile="viewimg.aspx.vb" %>

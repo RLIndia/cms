@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Skin setup -->
+<variables>
+	<!-- Inside variables to define elements to load -->
+	<add key="ImageTopLeft" value=""/>
+	<add key="Logo" value="resources/images/logos/meet_up.png"/>
+	<add key="Favicon" value="resources/images/favicons/meet_up.ico"/>
+	<add key="bgsound" value=""/>
+	<add key="SoundOnlyAtStartSession" value="true"/>
+	<add key="FolderIcons" value="white colors 26"/>
+	<add key="ButtonsWithIcons" value="true"/>
+	<!-- Optional variables for replace in CSS file -->
+	<add key="BackgroundColorPage" value="#EBE2D0"/>
+	<add key="BackgroundImage" value=""/>
+	<add key="BackgroundRepeat" value=""/>
+	<add key="FontColor" value="#960609"/>
+	<add key="FontFamily" value="'Arial Narrow', sans-serif"/>
+	<add key="FontSize" value="1.0em"/>
+	
+	<!-- START Font personalizations (need style fonts.child.css) -->
+	<add key="Font1" value="Amerika_Sans"/>
+	<add key="Font2" value="LaBouf"/>
+	<add key="ButtonsFontSize" value="0.8em"/>
+	<add key="MenuFontSize" value="1.2em"/>
+	<!-- END Font personalizations -->
+
+	<add key="BackgroundImageBox" value="resources/images/backgrounds/vertical streak soft.png"/>
+ 	<add key="BackgroundColorBox" value="#CE8B1F"/>
+  <add key="BorderColorBox" value="#CE8B1F"/>
+  <add key="BackgroundColorButton" value="#689087"/>
+
+  <add key="PointListMenu" value="resources/images/ListStyleImage/star.png"/>
+
+  <add key="ColorLink" value="#FFFFFF"/>
+  <add key="ColorVisitedLink" value="#FFFFFF"/>
+
+  <add key="ColorDark" value="#960609"/>
+	<add key="ColorBright" value="#CE8B1F"/>
+
+	<add key="Pattern1" value=""/>
+
+	<add key="ParRowColor" value="#7fbfbf"/><!-- Back Ground color for par box and box menu-->
+	<add key="OddRowColor" value="#93dddd"/><!-- Back Ground color for unpair box -->
+	<add key="QuoteColor" value="#f7a725"/><!-- Back Ground color for quote -->
+
+	<!-- Border of screen -->
+	<add key="BodyMargin" value="14px"/>
+	<add key="BodyBorderWidth" value="0px"/>
+	<add key="BodyMarginInside" value="0px"/>
+
+	<!-- Rounded element -->
+	<!-- <add key="RoundedButton" value="32px"/> -->
+	<add key="RoundedMenu" value="8px"/>
+  
+	<!-- Shadow -->
+	<!-- <add key="Shadow" value="5px 5px 15px #000000"/> -->
+	<add key="Shadow" value="0 0 0"/>
+
+	<!-- Menu -->
+	<add key="BorderMenu" value="4px outset"/> 
+</variables>

@@ -1,0 +1,1 @@
+<%@ Page Language="VB" AutoEventWireup="false" Inherits="viewthumb" EnableSessionState="False" CodeFile="viewthumb.aspx.vb" %>

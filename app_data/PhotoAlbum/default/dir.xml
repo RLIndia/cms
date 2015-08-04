@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<PhotoAlbum>
+  <SubLevel>0</SubLevel>
+  <Created>2015-08-04T23:41:03.3688036Z</Created>
+  <SubPhotoAlbumsNotCreatable>false</SubPhotoAlbumsNotCreatable>
+  <Hide>false</Hide>
+  <Editable>Author</Editable>
+  <AddPermitted>Author</AddPermitted>
+  <Exists>false</Exists>
+  <Deletable>None</Deletable>
+  <LocalizationArray />
+  <IsRoot>true</IsRoot>
+</PhotoAlbum>

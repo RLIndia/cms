@@ -1,0 +1,33 @@
+@media not all and (min-device-width: 0in) and (max-device-width: 7in)
+{
+    .BoxElement
+    {
+        float:none;
+    }
+ 	section[itemtype="http://schema.org/BlogPosting"]
+	{
+    text-align:justify;
+
+	column-gap: normal;
+	-moz-column-gap:normal;
+	-webkit-column-gap:normal;
+
+    column-width:4in;
+    -moz-column-width:4in;
+    -webkit-column-width:4in;
+
+	/*column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;*/
+	}
+    h1, h2, h3, section>fieldset
+    {
+        column-span:all;
+        -moz-column-span:all;
+        -webkit-column-span:all;
+    }
+    article+nav
+    {
+        padding-left:2em;
+    }
+}

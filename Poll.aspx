@@ -1,0 +1,1 @@
+<%@ Page Language="VB" AutoEventWireup="false" Inherits="Poll" CodeFile="Poll.aspx.vb" %>
