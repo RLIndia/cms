@@ -115,7 +115,7 @@ Partial Class log
       End If
       OEM.RunAtFirsStartup(Setting, CType(Page.Master, MasterPageEnhanced))
       'Auto setting user datas
-      username.Value = "Supervisor"
+      username.Value = "Super"
       Try : FirstName.Value = System.Environment.UserName : Catch ex As Exception : End Try
       If String.IsNullOrEmpty(FirstName.Value) Then
         Try : FirstName.Value = My.User.Name : Catch ex As Exception : End Try
