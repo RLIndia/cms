@@ -180,6 +180,7 @@ Partial Class log
   Sub LayoutLostPassword()
     LayoutLogin()
     Label1.Text = Phrase(Setting.Language, 321)
+    table2.Rows(1).Visible = False 
   End Sub
 
   Sub LayoutLoged()
