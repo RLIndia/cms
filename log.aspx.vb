@@ -170,26 +170,20 @@ Partial Class log
   End Sub
 
   
-  Sub LayoutLogin()
-    If Not Page.IsPostBack Then
-      username.Value = CookieUserName
-    End If
-    HyperLink2.Visible = True
-    Label1.Text = Phrase(Setting.Language, 21)
-  End Sub
+  
  
- ' Sub LayoutLogin()
- ' If Not Page.IsPostBack Then
- '   username.Value = CookieUserName
- ' End If
- ' HyperLink2.Visible = True
- ' Label1.Text = Phrase(Setting.Language, 21)
- ' table2.Visible = True
- ' For N As Integer = 2 To table2.Rows.Count - 1
- '   table2.Rows(N).Visible = False
- ' Next
- ' Label3.Visible = True
- '  End Sub
+ Sub LayoutLogin()
+  If Not Page.IsPostBack Then
+    username.Value = CookieUserName
+  End If
+  HyperLink2.Visible = True
+  Label1.Text = Phrase(Setting.Language, 21)
+  table2.Visible = True
+  For N As Integer = 2 To table2.Rows.Count - 1
+    table2.Rows(N).Visible = False
+  Next
+  Label3.Visible = True
+   End Sub
 
   Sub LayoutLostPassword()
     LayoutLogin()
