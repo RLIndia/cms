@@ -169,15 +169,7 @@ Partial Class log
     Url.Value = User.URL
   End Sub
 
-  /*
-  Sub LayoutLogin()
-    If Not Page.IsPostBack Then
-      username.Value = CookieUserName
-    End If
-    HyperLink2.Visible = True
-    Label1.Text = Phrase(Setting.Language, 21)
-  End Sub
- */
+  
   Sub LayoutLogin()
   If Not Page.IsPostBack Then
     username.Value = CookieUserName
